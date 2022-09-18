@@ -2,3 +2,15 @@
     width: 400px;
     height: 500px;
 }
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
