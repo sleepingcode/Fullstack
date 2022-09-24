@@ -14,3 +14,8 @@ ol li {
 ul li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.ingredients-border {
+    border: solid 1px black;
+    width: 500px;
+}
