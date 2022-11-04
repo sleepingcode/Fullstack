@@ -1,0 +1,397 @@
+body {
+    margin: 0px;
+    background-color: #444;
+    background-image: url('https://de7i3bh7bgh0d.cloudfront.net/wsj-bg-smoketile.jpg');
+    font-family: "Avenir Next", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-bar {
+    margin: auto;
+    background-color: #2E2E2E;
+}
+
+.nav-top {
+    background-color: #2E2E2E;
+    display: flex;
+    padding-left: 46px;
+}
+
+.nav-list {
+    list-style: none;
+    padding-bottom: 8px;
+    padding-top: 9px;
+}
+
+.nav-item {
+    color: #D8D8D8;
+    text-decoration: none;
+    font-family: 'Avenir Next', sans-serif;
+    padding-left: 18px;
+    font-weight: 500;
+
+}
+
+.nav-item:hover {
+    color: white;
+}
+
+#first-nav-item {
+    color: #949494;
+    cursor: text;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grey-container {
+    margin: 0px;
+    width: 74%;
+    height: 110px;
+    background-color: #dedede;
+    display: flex;
+}
+
+.mini-nav {
+    display: flex;
+    align-items: flex-end;
+    margin-left: -905px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+
+}
+
+.customer-login {
+    display: flex;
+    margin-left: 70px;
+    height: 50px;
+    align-items: flex-end;
+
+
+}
+
+.login-items {
+    text-decoration: none;
+    font-family: 'Avenir Next', sans-serif;
+    color: #2E2E2E;
+    margin-right: 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.login-items:hover {
+    color: #FF0000;
+
+}
+
+.mini-nav-items {
+    text-decoration: none;
+    font-family: 'Avenir Next', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #2E2E2E;
+    margin-right: 15px;
+}
+
+.mini-nav-items:hover {
+    border-bottom: solid 3px #2E2E2E;
+    padding-bottom: 3px;
+    color: #FF0000;
+}
+
+
+.logo {
+    display: flex;
+    width: 26%;
+    background-color: #FF0000;
+}
+
+.viz-logo {
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 150px;
+    height: 60px;
+}
+
+.heart-Svg {
+    padding-right: 1px;
+    margin-bottom: -5px;
+    width: 25px;
+}
+
+.cart-Svg {
+    padding-right: 2px;
+    margin-bottom: -3px;
+    width: 20px;
+}
+
+#search-input {
+    background-color: #F2F2F2;
+    padding: 7.5px 15px;
+    color: #2E2E2E;
+    /* border: 1px solid #949494; */
+    border: 1px solid transparent;
+    margin: 0;
+    color: #2E2E2E;
+    font-family: "Avenir Next", sans-serif;
+    width: 260px;
+}
+
+.search-container {
+    margin-left: 310px;
+}
+
+input[type="search"]::placeholder {
+    color: #949494;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+
+form {
+    display: flex;
+    /* border: 1px solid #2E2E2E; */
+    border-radius: 5px;
+
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    border: 0px solid transparent;
+    background: transparent no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-5 h-5'%3E%3Cpath fill-rule='evenodd' d='M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z' clip-rule='evenodd' /%3E%3C/svg%3E%0A");
+    opacity: 0.8;
+    width: 25px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-left: -40px;
+}
+
+button[type="submit"]:hover {
+    opacity: 1;
+}
+
+button [type="submit"]:focus,
+input[type="search"]:focus {
+    box-shadow: 0 0 2px 0 #1183d6;
+    outline: none;
+}
+
+.big-main-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #949494;
+}
+
+.black-container {
+    background-color: #2E2E2E;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+.black-container-p {
+    margin: 0;
+    color: #F2F2F2;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.black-container-p:hover {
+    color: #FF0000;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.main-info {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+
+.sj-intro {
+    overflow: hidden;
+    background-color: #F2F2F2;
+    /* width: 95%;
+    margin: auto; */
+}
+
+.manga-chapter {
+    padding: 0px 30px;
+    margin: 15px 0px;
+    max-width: 85.875rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shonen-jump-container {
+    margin: 0px 90px;
+}
+
+.shonen-jump-outer-container {
+    padding: 60px 30px;
+    margin: 0px 15px;
+}
+
+.big-shonen-jump {
+    border: 0;
+    width: 1134px;
+    height: 159.891px;
+}
+
+/*.chapter-rows {
+    margin: 15px 0px;
+    padding: 0px 30px;
+} */
+
+.latest-free-chapters-title {
+    margin: 15px 0px 30px 0px;
+}
+
+.section-title {
+    margin: 10px 0px;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    text-transform: uppercase;
+    line-height: 1;
+
+
+}
+
+.section-tagline {
+    line-height: 1.1;
+    margin: 0px 60px 15px 0px;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 500;
+    font-size: 38.2px;
+}
+
+.section-tagline a {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+.section-see-all {
+    left: 1235px;
+    /* top: 118.500px; */
+    font-size: 20px;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 15px;
+    margin-top: -40px;
+    display: block;
+    position: relative;
+    /*  position: absolute; */
+}
+
+.see-all-link {
+    color: #2E2E2E;
+    transition-duration: 0.2s;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 500;
+}
+
+.see-all-link:hover {
+    color: #FF0000;
+    transition-duration: 0.1s;
+}
+
+.chapter-rows {
+    padding: 0px 30px;
+    margin: 15px 0px;
+    max-width: 85.875rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chapters-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.choujin-x {
+    margin-right: 2.1834061135%;
+    margin-bottom: 30px;
+    position: relative;
+    left: 30px;
+    width: 23.3624454148%;
+    background-color: #2E2E2E;
+}
+
+#choujin-x-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Avenir Next", sans-serif;
+}
+
+.choujin-overflow-hide {
+    overflow: hidden;
+    position: relative;
+}
+
+.choujin-x-overflow-hide img {
+    border: 0;
+    /*  max-width: 100%; */
+    width: 306.977px;
+    height: 245.578px;
+}
+
+#choujin-title {
+    line-height: 1;
+    font-size: 28px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.choujin-x-tagline {
+    line-height: 1;
+    font-family: "Avenir Next", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+.choujin-x-tagline span {
+    line-height: 1;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#chapter-date {
+    line-height: 1;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    color: #FFFFFF;
+}
