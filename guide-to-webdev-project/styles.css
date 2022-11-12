@@ -1,8 +1,136 @@
+body {
+    width: 50%;
+    margin: auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
 .useravatar {
     border-radius: 50px;
-    width: 60px;
+    width: 35px;
+    margin-bottom: 15px;
+}
+
+.timestamp {
+    color: rgb(61 61 78);
+    font: 400;
+    font-family: "Nunito Sans", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, Helvetica Neue;
+    font-size: 14px;
+    letter-spacing: 1.0px;
+    margin-bottom: 30px;
+}
+
+.authordetail {
+    display: flex;
+    justify-items: flex-start;
+}
+
+.authorname {
+    margin-top: 1.5%;
+    margin-left: 10px;
 }
 
 h1 {
-    color: blue;
+    font-family: Helvetica Neue, Helvetica;
+    color: black;
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 80px;
+    line-height: 1.3;
+
+}
+
+.computerimg {
+    width: 673.5px;
+}
+
+.maintext {
+    text-align: left;
+    font-family: "Droid Serif", Georgia, serif;
+    font-size: 20px;
+    line-height: 2.0;
+}
+
+blockquote {
+    background-color: rgb(245 245 245);
+    font-family: "Droid Serif", Georgia, serif;
+    font-size: 20px;
+    line-height: 2.0;
+    border-left: solid 5px #cccbff;
+    margin: auto;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    width: 900px;
+}
+
+.links li a {
+    padding: 5px 15px;
+}
+
+.links a {
+    text-decoration: none;
+    font-family: "Droid Serif", Georgia, serif;
+}
+
+.links a:hover {
+    background-color: rgba(243, 243, 243, 0.885);
+
+}
+
+#firstlink {
+    color: rgb(85 83 255);
+}
+
+.navbutton {
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    align-items: center;
+    align-content: space-between;
+}
+
+#login {
+    padding: 10px;
+    color: black;
+    background-color: white;
+    margin-right: 10px;
+}
+
+#login:hover {
+    transition: 0.2s;
+    background-color: rgba(243, 243, 243, 0.885);
+}
+
+button {
+    border-width: 0;
+    background-color: #6e44ff;
+    font-size: .9375rem;
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+
+}
+
+button:hover {
+    background-color: #5603ad;
+    transition: 0.2s;
+}
+
+#firstlink a:hover {
+    color: #f4f4f6;
+    background-color: none;
 }
